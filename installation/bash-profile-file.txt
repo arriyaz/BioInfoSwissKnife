@@ -1,0 +1,5 @@
+
+
+# add the PATH
+export PATH=$HOME/bin/BioInfoSwissKnife/bin:$PATH
+
