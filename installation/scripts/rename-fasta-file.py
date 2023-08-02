@@ -33,6 +33,7 @@ def rename_fasta_file(input_file, output_folder=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
+        prog="rename-fasta-file",
         description="Rename the FASTA file with sequence ID from Fasta header")
     parser.add_argument("-i", "--input", dest="input_file", required=True, help="Input FASTA file.")
     parser.add_argument("-o", "--output", dest="output_folder", default=None, help="Output folder to save the renamed FASTA file.")
