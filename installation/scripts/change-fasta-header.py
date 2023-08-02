@@ -50,6 +50,7 @@ def change_fasta_header(input_file, output_folder= None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
+        prog="change-fasta-header",
         description="Change the fasta header with its filename")
     parser.add_argument("-i", "--input", dest="input_file", required=True, help="Input FASTA file.")
     parser.add_argument("-o", "--output", dest="output_folder", default=None, help="Output folder to save FASTA file with new header.")
