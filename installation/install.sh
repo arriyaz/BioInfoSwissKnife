@@ -23,7 +23,7 @@ fi
 source ~/.bashrc
 
 # Syncing scripts to installation file
-rsync -av ./ $INSTALL_PATH/
+rsync -ah --delete ./ $INSTALL_PATH/
 
 # make everything in bin file executable
 chmod +x $INSTALL_PATH/bin/*
